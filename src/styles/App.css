@@ -1,0 +1,115 @@
+.container {
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  .card {
+    background: #f5f5f5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  .charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chart-box {
+    flex: 1 1 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .result-item {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  .app-layout {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 15px 0;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  .active {
+    font-weight: bold;
+    color: #1abc9c;
+  }
+  .menu-btn {
+    display: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      position: fixed;
+      width: 180px;
+      height: 100%;
+      left: -200px;
+      transition: 0.3s;
+    }
+  
+    .sidebar.open {
+      left: 0;
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+    .menu-btn {
+        display: block;
+    }
+  }
