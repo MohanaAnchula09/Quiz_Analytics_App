@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MohanaAnchula09/Quiz_Analytics_App.git/static/css/main.68dbe09d.css",
+    "main.js": "/MohanaAnchula09/Quiz_Analytics_App.git/static/js/main.61d5f29a.js",
+    "static/js/453.caad6f7c.chunk.js": "/MohanaAnchula09/Quiz_Analytics_App.git/static/js/453.caad6f7c.chunk.js",
+    "index.html": "/MohanaAnchula09/Quiz_Analytics_App.git/index.html",
+    "main.68dbe09d.css.map": "/MohanaAnchula09/Quiz_Analytics_App.git/static/css/main.68dbe09d.css.map",
+    "main.61d5f29a.js.map": "/MohanaAnchula09/Quiz_Analytics_App.git/static/js/main.61d5f29a.js.map",
+    "453.caad6f7c.chunk.js.map": "/MohanaAnchula09/Quiz_Analytics_App.git/static/js/453.caad6f7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68dbe09d.css",
+    "static/js/main.61d5f29a.js"
+  ]
+}
