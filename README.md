@@ -4,8 +4,15 @@ An interactive data analytics dashboard built using React that allows users to t
 
 ---
 
+## 📸 Screenshots
+
+![Dashboard](./screenshots/Dashboard.png)
+![Analytics](./screenshots/Analytics.png)
+
+---
+
 ## Live Demo
-https://mohanaanchula09.github.io/insightboard-dashboard/
+ https://mohanaanchula09.github.io/Quiz_Analytics_App/
 
 ## GitHub Repository
 https://github.com/MohanaAnchula09/Quiz_Analytics_App.git
