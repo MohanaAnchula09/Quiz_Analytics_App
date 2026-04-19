@@ -4,7 +4,7 @@ An interactive data analytics dashboard built using React that allows users to t
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Dashboard](./screenshots/Dashboard.png)
 ![Analytics](./screenshots/Analytics.png)
